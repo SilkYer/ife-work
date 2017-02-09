@@ -1,0 +1,360 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: Microsoft YaHei, sans-serif;
+}
+
+body
+{
+	min-width: 980px;
+	background: #e2e2e2;
+}
+
+li
+{
+	list-style: none;
+}
+
+
+.head-wrapper
+{
+	background-color: #47456d;
+	height: 80px;
+	position: relative;
+	padding-left: 180px;
+	padding-right: 180px;
+}
+
+
+.item
+{
+	position: absolute;
+	right: 180px;
+	bottom: 5px;
+}
+
+#logo
+{
+	color: #fff;
+	position: absolute;
+	bottom: 5px;
+	font-size: 33px;
+}
+.item a 
+{
+	text-decoration: none;
+	color: #fff;
+	padding: 0 14px;
+}
+.head-wrapper li
+{
+	display: inline-block;
+}
+#github-icon
+{
+	position: absolute;
+	right: 10px;
+	bottom: 0px;
+}
+
+@media (max-width: 980px) {
+    #github-icon {
+        display: none;
+    }
+}
+
+/*gallery主体*/
+
+.gallery-center
+{
+	position: relative;
+	width: 980px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+
+.gallery-content
+{
+	position: relative;
+	padding: 20px;
+	background-color: #fff;
+	margin-top: 70px;
+	width: 670px;
+	
+}
+
+.gallery-tab
+{
+	position: absolute;
+    top: -55px;
+    left: 0px;
+}
+.gallery-tab a{
+	text-decoration: none;
+	color: #000;
+}
+.tab-item
+{
+	background-color: #fff;
+	float: left;
+	margin: 0 1px 1px 0;
+	padding: 15px;
+}
+
+.gallery-item ul
+{
+	float: left;
+}
+
+.rest-li
+{
+	margin-left: 10px;
+}
+
+/*对tab的几个标签分别定义样式*/
+
+.item-all
+{
+	border-top: 3px solid #92C0EF;
+}
+.item-all:hover
+{
+	border-top: 3px solid #47456D;
+	transition: 0.4s;
+}
+.item-js
+{
+	border-top: 3px solid #dfc6e6;
+}
+.item-js:hover
+{
+	border-top: 3px solid #522a5c;
+	transition: 0.4s;
+}
+.item-ui
+{
+	border-top: 3px solid #d2a6ff;
+}
+.item-ui:hover
+{
+	border-top: 3px solid #5900b2;
+	transition: 0.4s;
+}
+.item-framework
+{
+	border-top: 3px solid #ffa98c;
+}
+.item-framework:hover
+{
+	border-top: 3px solid #8c2300;
+	transition: 0.4s;
+}
+.item-applications
+{
+	border-top: 3px solid #ffe188;
+}
+.item-applications:hover
+{
+	border-top: 3px solid #d9a300;
+	transition: 0.4s;
+}
+
+/*sideBar*/
+
+.search-bar
+{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 260px;
+	height: 82px;
+	background-color: #fff;
+
+}
+
+.keywords
+{
+	height: 40px;
+	width: 170px;
+	margin: 20px 65px 20px 25px;
+	background-image: url(../img/search.png);
+	background-repeat: no-repeat;
+}
+
+.keywords:focus
+{
+	background: none;
+}
+
+.submit
+{
+	position: absolute;
+	top: 20px;
+    right: 21px;
+    width: 44px;
+    height: 44px;
+	border:none;
+	background: #e2e2e2;
+	color: #fff;
+	font-size: 21px;
+}
+
+/*人气排行榜*/
+
+.ranking
+{
+	background-color: #fff;
+	width: 260px;
+	position: absolute;
+	right: 0px;
+	top: 90px;
+	padding: 15px 0 30px 0;
+}
+.rank-title
+{
+	margin: 10px;
+	font-size: 12px;
+	color: #888;
+}
+.num
+{
+	margin-right: 3px;
+	height: 16px;
+	width: 16px;
+	background-color: #47456d;
+	border-radius: 50%;
+	display: inline-block;
+	text-align: center;
+	line-height: 16px;
+	color: #fff;
+	margin-left: 10px;
+}
+.progress-wrapper
+{
+	position: relative;
+	top: 5px;
+	border:1px solid #47456d;
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+	margin-bottom: 13px;
+}
+.rank-progress
+{
+	background-color:#47456d;
+	width: 100px;
+	height: 20px;
+	display: inline-block;
+}
+
+.text
+{
+	height: 100px;
+	width: 100px;
+	background-color: #333;
+	border:1px solid blue;
+}
+.progress-trim
+{
+	width: 80%;
+}
+
+.progress-todo
+{
+	width: 50%;
+}
+
+.progress-tab
+{
+	width: 25%;
+}
+
+.progress-addClass
+{
+	width: 0%;
+}
+
+.gallery-more
+{
+	width: 710px;
+	background-color: #fff;
+	height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 120px; 
+
+}
+
+.gallery-more a
+{
+	font-size: 12px;
+	color: #888;
+	text-decoration: none;
+	line-height: 40px;
+}
+
+/*footer 部分*/
+
+
+.footer
+{
+	color: #fff;
+    
+    font-size: 12px;
+    background: #000;
+}
+
+.footer-nav
+{
+	text-align: center;
+	color: #fff;
+}
+
+hr
+{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.link-wrapper
+{
+	width: 980px;
+	margin: 0 auto ;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.footer-nav li
+{
+	display: inline-block;
+	padding: 0 10px;
+	margin: 10px 0;
+}
+
+.link-item
+{
+	width: 193px;
+	display: inline-block;
+}
+
+.link-title
+{
+	margin: 40px 0 30px;
+}
+
+
+.copyright
+{
+	text-align: center;
+	margin: 0 auto;
+}
+
+#copy-right
+{
+	margin-bottom: 10px;
+}
+.copyright p
+{
+	padding-bottom: 20px;
+}

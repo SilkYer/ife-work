@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>事件委托</title>
+	<style type="text/css">
+		li{
+			padding-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<ul id="ull">
+		<li>001</li>
+		<li>002</li>
+		<li>003</li>
+	</ul>
+
+
+<script type="text/javascript">
+	var a = document.getElementById('ull'); //拿到父元素即可 不需要拿下面N多的子元素
+
+	a.addEventListener('click' , function(e){
+		var e = e || window.event;
+		var target = e.target || event.srcElement;
+
+		if (target.nodeName.toLowerCase() == 'li') {
+			alert('target.nodeName.innerHTML'); //该位置放listener()就行
+		}
+	})
+
+	
+</script>
+</body>
+</html>
+
+

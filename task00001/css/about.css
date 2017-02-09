@@ -1,0 +1,278 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	font-family: "MicroSoft YaHei";
+	background-color: #e2e2e2;
+	min-width: 980px;
+
+}
+.head-wrapper
+{
+	width: 980px;
+	position: relative;
+	height: 80px;
+	background-color: #47456d;
+	padding: 0 190px;
+}
+li
+{
+	list-style: none;
+}
+
+.head-wrapper ul
+{
+	list-style: none;
+	display: inline-block;
+}
+
+.head-wrapper li
+{
+	list-style: none;
+	display: inline-block;
+}
+#logo
+{
+	position: absolute;
+	bottom: 5px;
+	color: #fff;
+	font-size: 33px;
+	font-weight: bold;
+	
+}
+.head-item
+{
+	right: 190px;
+	position: absolute;
+	bottom: 5px;
+}
+.head-wrapper li
+{
+	display: inline-block;
+}
+.head-item a 
+{
+	text-decoration: none;
+	margin-left: 20px;
+	color: #fff;
+	
+}
+
+/*白色主体部分*/
+
+
+.content-wrapper
+{
+	position: relative;
+	margin: 0 190px;
+	width: 980px;
+	margin-top: 120px;
+}
+.content-left
+{
+	background-color: #fff;
+	width: 487px;
+	height: 1000px;
+	float: left;
+}
+
+.content-right
+{
+	position: relative;
+	background-color: #fff;
+	height: 1000px;
+	width: 487px;
+	float: right;
+}
+/*图片圆环代码*/
+/*增加代码复用性*/
+.circle-wrapper
+{
+	border: 5px solid #eee;
+	border-radius: 50%;
+}
+.pika
+{
+	position: absolute;
+	top: -90px;
+    left: -90px;
+}
+
+.sef-description
+{
+	margin-top: 130px;
+	max-width: 300px;
+	margin-left: 80px;
+}
+.info-contact
+{
+	position: relative;
+	margin-top: 200px;
+	margin-left: 80px;
+}
+.contact
+{
+	position: absolute;
+	top: -160px;
+    left: -145px;
+}
+
+.info-contact img
+{
+	width: 110px;
+	height: 110px;
+}
+.info-edu
+{
+	margin-top: 180px;
+	position: relative;
+}
+.info-edu img
+{
+	width: 110px;
+	height: 110px;
+	position: absolute;
+	top: -150px;
+    left: -65px;
+}
+
+.left-info
+{
+	position: absolute;
+	top: 0;
+	left: -220px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.speacial-info
+{
+	position: absolute;
+	top: 0;
+	left: -220px;
+	margin-top: 150px;
+	font-size: 33px;
+	font-weight: bold;
+}
+
+.speacial-info2
+{
+	position: absolute;
+	top: 0;
+	left: -120px;
+	
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/*时间外边框样式*/
+.period
+{
+	background-color: #fff;
+	border: 5px solid #eee;
+	border-radius: 7px;
+	width: 60px;
+	height: 30px;
+	text-align: center;
+	line-height: 28px;
+}
+
+.period1
+{
+	position: absolute;
+	top: 0;
+	left: -38px;
+}
+
+.period2
+{
+	position: absolute;
+	top: 70px;
+	left: -38px;
+}
+
+.edu-location1
+{
+	position: absolute;
+	left: 50px;
+}
+
+.edu-location2
+{
+	position: absolute;
+	top: 70px;
+	left: 50px;
+}
+
+.edu-location p
+{
+	font-size: 15px;
+}
+
+
+/*footer 部分*/
+
+
+.footer
+{
+	color: #fff;
+    font-size: 12px;
+    background: #000;
+    clear: both;
+}
+
+.footer-nav
+{
+	text-align: center;
+	color: #fff;
+}
+
+hr
+{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.link-wrapper
+{
+	width: 980px;
+	margin: 0 auto ;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.footer-nav li
+{
+	display: inline-block;
+	padding: 0 10px;
+	margin: 10px 0;
+}
+
+.link-item
+{
+	width: 193px;
+	display: inline-block;
+}
+
+.link-title
+{
+	margin: 40px 0 30px;
+}
+
+
+.copyright
+{
+	text-align: center;
+	margin: 0 auto;
+}
+
+#copy-right
+{
+	margin-bottom: 10px;
+}
+.copyright p
+{
+	padding-bottom: 20px;
+}
